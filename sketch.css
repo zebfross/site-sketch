@@ -1,0 +1,16 @@
+body, header, footer, h1, h2, h3, h4 {
+	font-family: "Comic Sans MS";
+}
+[class*="span"] {
+	border: 2px double gray;
+	padding: 2px;
+}
+img {
+	border: 2px double gray;
+	padding: 2px;
+}
+[class*="span"], img {
+	border-image: url("../img/sketch-border.png") 25 10 10 stretch;
+	-moz-border-image: url("../img/sketch-border.png") 25 10 10 stretch;
+	-webkit-border-image: url("../img/sketch-border.png") 25 10 10 stretch;
+}
